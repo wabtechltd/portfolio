@@ -144,7 +144,7 @@ export default function PortfoliosPage() {
                       View Live
                     </Link>
                     <a
-                      href="https://github.com/yourusername/portfolio"
+                      href="https://github.com/wabtechltd/portfolio"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`flex items-center justify-center gap-2 border-2 px-4 py-3 ${portfolio.borderColor} hover:${portfolio.bgColor} rounded-lg font-semibold transition-all`}
@@ -176,7 +176,7 @@ export default function PortfoliosPage() {
               them your own.
             </p>
             <a
-              href="https://github.com/yourusername/portfolio"
+              href="https://github.com/wabtechltd/portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 font-bold text-black transition-all hover:bg-gray-200"
