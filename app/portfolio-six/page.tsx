@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowUpRight, Circle } from "lucide-react";
 import { useRef } from "react";
 
-export default function Home() {
+export default function MinimalistBrutalistPortfolio() {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -176,8 +176,8 @@ export default function Home() {
               </p>
               <p className="text-xl leading-relaxed">
                 Specializing in management systems, online business platforms
-                with payment integration (Investment, betting), AI applications,
-                and custom solutions based on your vision.
+                with payment integration, AI applications, and custom solutions
+                based on your vision.
               </p>
 
               <div className="grid grid-cols-2 gap-6 pt-8">
@@ -187,7 +187,7 @@ export default function Home() {
                 </div>
                 <div className="border-l-4 border-black pl-4">
                   <div className="text-4xl font-black">10+</div>
-                  <div className="mt-2 text-sm font-bold">LIVE PROJECTS</div>
+                  <div className="mt-2 text-sm font-bold">PROJECTS</div>
                 </div>
               </div>
             </motion.div>
