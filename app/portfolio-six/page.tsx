@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowUpRight, Circle } from "lucide-react";
+import { ArrowUpRight, Circle, Github, Linkedin } from "lucide-react";
 import { useRef } from "react";
 
 export default function MinimalistBrutalistPortfolio() {
@@ -65,6 +65,35 @@ export default function MinimalistBrutalistPortfolio() {
       {/* Hero Section - Massive Typography */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-20">
         <div className="w-full max-w-7xl">
+          {/* Social Links */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+            className="mb-8 flex gap-4"
+          >
+            <motion.a
+              href="https://github.com/WabweniBrian"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-12 w-12 items-center justify-center border-4 border-black bg-white transition-all hover:bg-black hover:text-white md:h-16 md:w-16"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Github className="h-6 w-6 md:h-8 md:w-8" strokeWidth={2} />
+            </motion.a>
+            <motion.a
+              href="https://www.linkedin.com/in/wabweni-brian-631079247"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-12 w-12 items-center justify-center border-4 border-black bg-white transition-all hover:bg-black hover:text-white md:h-16 md:w-16"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Linkedin className="h-6 w-6 md:h-8 md:w-8" strokeWidth={2} />
+            </motion.a>
+          </motion.div>
+
           {/* Massive Name */}
           <motion.div style={{ y: nameY }} className="relative">
             <motion.h1
