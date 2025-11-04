@@ -7,16 +7,6 @@ import Link from "next/link";
 export default function PortfoliosPage() {
   const portfolios = [
     {
-      id: "one",
-      title: "The Cosmic Developer",
-      description:
-        "A journey through space with parallax stars, nebula effects, and floating particles.",
-      theme: "Space & Astronomy",
-      color: "from-purple-600 to-blue-600",
-      bgColor: "bg-purple-500/10",
-      borderColor: "border-purple-500/30",
-    },
-    {
       id: "two",
       title: "The Terminal Hacker",
       description:
@@ -25,16 +15,6 @@ export default function PortfoliosPage() {
       color: "from-green-600 to-emerald-600",
       bgColor: "bg-green-500/10",
       borderColor: "border-green-500/30",
-    },
-    {
-      id: "three",
-      title: "The Liquid Morphism",
-      description:
-        "Premium glassmorphic design with morphing blobs and magnetic cursor effects.",
-      theme: "Glassmorphism",
-      color: "from-pink-600 to-purple-600",
-      bgColor: "bg-pink-500/10",
-      borderColor: "border-pink-500/30",
     },
     {
       id: "four",
@@ -56,6 +36,28 @@ export default function PortfoliosPage() {
       bgColor: "bg-orange-500/10",
       borderColor: "border-orange-500/30",
     },
+    {
+      id: "one",
+      title: "The Cosmic Developer",
+      description:
+        "A journey through space with parallax stars, nebula effects, and floating particles.",
+      theme: "Space & Astronomy",
+      color: "from-purple-600 to-blue-600",
+      bgColor: "bg-purple-500/10",
+      borderColor: "border-purple-500/30",
+    },
+
+    {
+      id: "three",
+      title: "The Liquid Morphism",
+      description:
+        "Premium glassmorphic design with morphing blobs and magnetic cursor effects.",
+      theme: "Glassmorphism",
+      color: "from-pink-600 to-purple-600",
+      bgColor: "bg-pink-500/10",
+      borderColor: "border-pink-500/30",
+    },
+
     {
       id: "six",
       title: "The Minimalist Brutalist",
