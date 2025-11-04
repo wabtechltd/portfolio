@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Brian's Developer Portfolio
 
-## Getting Started
+A modern, minimalist brutalist portfolio showcasing software development projects and expertise.
 
-First, run the development server:
+## 🚀 About
+
+Full-stack developer portfolio featuring:
+
+- **4 Client Projects**: WAYA Clothing, Nexpaa, PayDecorder, APCA Conference 2025
+- **7 Creative Portfolio Designs**: Explore different portfolio styles and themes
+- **Brutalist Design**: Bold typography, clean layouts, black & white aesthetic
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Language**: TypeScript
+- **Icons**: Lucide React
+
+## 📦 Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+├── page.tsx                    # Main portfolio (Brutalist design)
+├── portfolio-one/              # Cosmic Developer theme
+├── portfolio-two/              # Terminal Hacker theme
+├── portfolio-three/            # Liquid Morphism theme
+├── portfolio-four/             # Code Canvas theme
+├── portfolio-five/             # Neon Playground theme
+├── portfolio-six/              # Minimalist Brutalist theme
+├── portfolio-seven/            # Developer's Lab theme
+└── portfolios/                 # Portfolio gallery page
+```
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- Responsive design optimized for all devices
+- Smooth scroll animations with Framer Motion
+- Interactive project cards with hover effects
+- Multiple contact methods (Phone, WhatsApp, Email)
+- Portfolio inspiration gallery
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📧 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Email**: brian@wabtech.tech
+- **Phone**: +256 775 894 639
+- **WhatsApp**: +256 758 548 836
 
-## Deploy on Vercel
+## 🚀 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy easily on [Vercel](https://vercel.com):
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# Deploy to production
+vercel --prod
+```
+
+---
+
+Built with Next.js & Tailwind CSS
